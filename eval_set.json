@@ -1,0 +1,18 @@
+[
+  {
+    "question": "REPLACE: a question answered in one specific place of your PDF",
+    "reference_answer": "REPLACE: the correct short answer, in your own words",
+    "source": "yourfile.pdf",
+    "page": 3
+  },
+  {
+    "question": "REPLACE: another question whose answer spans pages 5 or 6",
+    "reference_answer": "REPLACE: the correct short answer",
+    "source": "yourfile.pdf",
+    "page": [5, 6]
+  },
+  {
+    "question": "REPLACE: a question NOT covered by your documents at all",
+    "answerable": false
+  }
+]
